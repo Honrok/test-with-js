@@ -19,36 +19,43 @@
             <div class="currentloans">Current Loans</div>
             <div class="loan-1">
                 <p class="loantitle">Loan name 1</p><span class="inv">Invested</span>
-                <p class="loan-details">Loan details, amounts nd values</p>
-                <a href="#popup" class="but">invest</a>
+                <p class="loan-details">Loan details, amounts and values</p>
+                <a href="#popup" class="but first">invest</a>
             </div>
             <div class="loan-2">
                 <p class="loantitle">Loan name 2</p><span class="inv">Invested</span>
-                <p class="loan-details">Loan details, amounts nd values</p>
-                <a href="#popup" class="but">invest</a>
+                <p class="loan-details">Loan details, amounts and values</p>
+                <a href="#popup" class="but second">invest</a>
             </div>
             <div class="loan-3">
                 <p class="loantitle">Loan name 3</p><span class="inv">Invested</span>
-                <p class="loan-details">Loan details, amounts nd values</p>
-                <a href="#popup" class="but">invest</a>
+                <p class="loan-details">Loan details, amounts and values</p>
+                <a href="#popup" class="but third">invest</a>
             </div>
-            <div class="available-amount">Total amount available for investments: <span class="amount"> £238,456</span>
+            <div>Total amount available for investments: <span class="amount">£238,456</span>
             </div>
         </div>
     </div>
     <div id="popup" class="popup">
-        <a href="#" class="popup__area"></a>
         <div class="popup__body">
             <div class="popup__content">
                 <a href="#" class="popup__close">&times;</a>
-                <div class="popup__title">This is modal window</div>
                 <div class="popup__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quisquam perferendis atque vero
-                    quidem excepturi delectus cupiditate facilis officiis laudantium exercitationem, officia at,
-                    assumenda incidunt quas iusto harum suscipit? Culpa.
+                    <span class="popup__text-theme">Invest in Loan</span><br>
+                    <span class="popup__text-title">Loan title you've clicked</span>
+                    <br>
+                    Amount available: £<span class="popup__text-amount">2020</span>
+                    <br>
+                    <span class="popup__text-end">Loan ends</span>
+                    <br>
+                    <span class="ia">Investment amount (£)</span>
+                    <br>
+                    <input type="number" class="inputPop"><a href="#" class="but btnPop">invest</a>
                 </div>
+
             </div>
         </div>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
